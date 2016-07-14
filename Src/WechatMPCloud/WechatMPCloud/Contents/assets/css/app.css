@@ -1,0 +1,9 @@
+header .am-form-group{
+    width:70%;
+    padding-top:0.5em;
+    margin-left:auto;
+    margin-right:auto;
+} 
+header .am-form-group>i{
+    padding-top:0.25em;
+}
