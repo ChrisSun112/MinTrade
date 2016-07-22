@@ -1,0 +1,99 @@
+header .am-form-group{
+    width:70%;
+    padding-top:0.5em;
+    margin-left:auto;
+    margin-right:auto;
+} 
+header .am-form-group>i{
+    padding-top:0.25em;
+}
+.shop-sign{
+    /*background-image:url(../images/shop_sign@950x150.gif);
+    background-repeat:no-repeat;*/
+    background-color:#E8E8D0;
+    background-size:100%;
+    height:66.2px;
+}
+.shop-sign .shop-logo{
+    padding-left:12px;
+    padding-top:15px;
+    padding-bottom:0px;
+    float:left;
+}
+.shop-sign .shop-logo img{
+    height:50px;
+    width:50px;
+}
+.shop-sign .shop-name{
+    font-size:0.8em;
+}
+.shop-sign .shop-info{
+    padding-left:5px;
+    padding-top:15px;
+    padding-bottom:0px;
+    float:left;
+}
+.shop-sign .shop-fans-info{
+    text-align:center;
+    padding-right:5px;
+    padding-top:15px;
+    padding-bottom:0px;
+    float:right;
+    font-size:0.8em;
+    width:60px;
+}
+.container{
+    border-top: 1px solid #dddddd;
+    margin-top:15px;
+}
+.container .container-header{
+    padding-top:7px;
+    padding-left:10px;
+    /*height:20px;*/
+   font-weight:500;
+}
+
+.container .am-nav-tabs>li>a {
+    border-bottom:none;
+    color:#555;
+    font-size:1.4rem;
+    font-weight: 300;
+}
+.container .am-nav-tabs>li.am-active>a{
+    border:none;
+    color:#0e90d2;
+    border-bottom:1px solid #0e90d2;
+    font-size:1.4rem;
+    font-weight: 300;
+}
+.am-tab-panel .list-tab-left{
+    width:66%;
+   
+    float:left;
+}
+
+.am-tab-panel .list-tab-left>img{
+    width:100%;
+}
+.am-tab-panel .list-tab-right{
+    width:32%;
+    margin-left:1%;
+    float:left;
+}
+
+.am-tab-panel .list-tab-right .list-tab-right-top>img,.am-tab-panel .list-tab-right .list-tab-right-bottom>img{
+    width:100%;
+}
+.am-tab-panel .list-tab-right .list-tab-right-bottom>img{
+    margin-top:5px;
+}
+.list-tab-left .tab-list-tips{
+    position: absolute; bottom: 16px; height: 20px;width:62%; background-color: #555;color:#ffffff;font-size:1rem; opacity: 0.7; 
+}
+ .list-tab-right .tab-list-right-tips{
+    position: absolute; bottom:0px;height: 20px;width:100%; background-color: #555;color:#ffffff;font-size:1rem; opacity: 0.7; 
+}
+.container .goods-list .goods-metro-row{
+    font-size:1rem;
+
+}

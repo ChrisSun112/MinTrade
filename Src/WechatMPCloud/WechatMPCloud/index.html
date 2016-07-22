@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="">
     <meta name="keywords" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>小拇指时尚童鞋</title>
 
     <!-- Set render engine for 360 browser -->
@@ -14,32 +14,30 @@
     <!-- No Baidu Siteapp-->
     <meta http-equiv="Cache-Control" content="no-siteapp" />
 
-    <link rel="icon" type="image/png" href="Contents/assets/i/favicon.png">
+    <link rel="icon" type="image/png" href="assets/images/shop_logo@32x32.jpg" />
 
     <!-- Add to homescreen for Chrome on Android -->
     <meta name="mobile-web-app-capable" content="yes">
-    <link rel="icon" sizes="192x192" href="Contents/assets/i/app-icon72x72@2x.png">
+    <link rel="icon" sizes="192x192" href="assets/i/app-icon72x72@2x.png">
 
     <!-- Add to homescreen for Safari on iOS -->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="apple-mobile-web-app-title" content="Amaze UI" />
-    <link rel="apple-touch-icon-precomposed" href="Contents/assets/i/app-icon72x72@2x.png">
+    <link rel="apple-touch-icon-precomposed" href="assets/i/app-icon72x72@2x.png">
 
-    <link rel="stylesheet" href="Contents/assets/css/amazeui.min.css">
-    <link rel="stylesheet" href="Contents/assets/css/app.css">
+    <link rel="stylesheet" href="assets/css/amazeui.min.css">
+    <link rel="stylesheet" href="assets/css/app.css">
 </head>
 <body>
    
     <!-- Header -->
     <header data-am-widget="header" class="am-header am-header-default">
-       
+            <!-- 搜索栏 -->  
             <div class="am-form-group am-form-icon" >
                 <i class="am-icon-search"></i>
                 <input class="am-form-field am-input-sm" type="text" placeholder="搜索宝贝">
             </div>
-            
-        
     </header>
 
     <!-- Menu -->
@@ -56,13 +54,10 @@
                     </li>
                     <li >
                         <a href="##">2016春季新品</a>
-                       
                     </li>
                     <li >
                         <a href="#">凉鞋</a>
-                       
-                    </li>
-                    
+                    </li>                   
                     <li class="">
                         <a href="##">运动鞋</a>
                     </li>
@@ -83,7 +78,131 @@
         </div>
     </nav>
 
-    <script src="Contents/assets/js/jquery.min.js"></script>
-    <script src="Contents/assets/js/amazeui.min.js"></script>
+    <!-- 店招区域 -->
+    <div class="shop-sign">
+        <div class="shop-logo">
+            <img src="assets/images/shop_logo@50x50.jpg" />
+        </div>
+        <div class="shop-info">
+            <div class="shop-name">小拇指时尚童鞋</div>
+            <div style="color:red;">♥♥</div>
+        </div>
+        <div class="shop-fans-info">
+            <div>粉丝数</div>
+            <div>209</div>
+        </div>
+    </div>
+
+    <!-- 图片滑动 -->
+    <div data-am-widget="slider" class="am-slider am-slider-a1" data-am-slider='{"directionNav":false}'>
+        <ul class="am-slides">
+            <li>           
+                <img src="assets/images/picture1.jpg" />
+            </li>
+            <li>
+                <img src="assets/images/picture2.jpg" />
+            </li>   
+        </ul>
+    </div>
+
+    <!-- 优惠券 -->
+    <div class="voucher-content">
+        <div>
+        </div>
+    </div>
+    
+    <!-- 排行榜 -->
+    <div class="container">
+        <div class="container-header">排行榜</div>
+        <div class="am-tabs" data-am-tabs="{noSwipe: 1}" id="doc-tab-demo-1">
+            <ul class="am-tabs-nav am-nav am-nav-tabs">
+                <li class="am-active"><a href="javascript: void(0)">钻石买家最爱</a></li>
+                <li><a href="javascript: void(0)">收藏排行</a></li>
+                <li><a href="javascript: void(0)">销售排行</a></li>
+            </ul>
+
+            <div class="am-tabs-bd">
+                <div class="am-tab-panel am-active">
+                    <div style="width:100%">
+                        <div class="list-tab-left">
+                            <img src="assets/images/goods1.jpg" />
+                            <div class="tab-list-tips"><span style="margin-left:10px;">已售 99</span><span style="float:right;margin-right:10px;">￥31</span></div>
+                        </div>
+                        <div class="list-tab-right">
+                            <div class="list-tab-right-top" style="position:relative">
+                                <img src="assets/images/goods2.jpg" />
+                                <div class="tab-list-right-tips"><span style="margin-left:10px;">已售 99</span><span style="float:right;margin-right:10px;">￥31</span></div>
+                            </div>
+                            <div class="list-tab-right-bottom" style="position:relative">
+                                <img src="assets/images/goods3.jpg" />
+                                <div class="tab-list-right-tips"><span style="margin-left:10px;">已售 99</span><span style="float:right;margin-right:10px;">￥31</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="am-tab-panel">
+                    <div style="width:100%">
+                        <div class="list-tab-left">
+                            <img src="assets/images/goods1.jpg" />
+                            <div class="tab-list-tips"><span style="margin-left:10px;">收藏 210</span><span style="float:right;margin-right:10px;">￥31</span></div>
+                        </div>
+                        <div class="list-tab-right">
+                            <div class="list-tab-right-top" style="position:relative">
+                                <img src="assets/images/goods2.jpg" />
+                                <div class="tab-list-right-tips"><span style="margin-left:10px;">收藏 199</span><span style="float:right;margin-right:10px;">￥31</span></div>
+                            </div>
+                            <div class="list-tab-right-bottom" style="position:relative">
+                                <img src="assets/images/goods3.jpg" />
+                                <div class="tab-list-right-tips"><span style="margin-left:10px;">收藏 99</span><span style="float:right;margin-right:10px;">￥31</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="am-tab-panel">
+                    <div style="width:100%">
+                        <div class="list-tab-left">
+                            <img src="assets/images/goods1.jpg" />
+                            <div class="tab-list-tips"><span style="margin-left:10px;">已售 99</span><span style="float:right;margin-right:10px;">￥31</span></div>
+                        </div>
+                        <div class="list-tab-right">
+                            <div class="list-tab-right-top" style="position:relative">
+                                <img src="assets/images/goods2.jpg" />
+                                <div class="tab-list-right-tips"><span style="margin-left:10px;">已售 99</span><span style="float:right;margin-right:10px;">￥31</span></div>
+                            </div>
+                            <div class="list-tab-right-bottom" style="position:relative">
+                                <img src="assets/images/goods3.jpg" />
+                                <div class="tab-list-right-tips"><span style="margin-left:10px;">已售 99</span><span style="float:right;margin-right:10px;">￥31</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 热销宝贝 -->
+    <div class="container">
+        <div class="container-header">热销宝贝</div>
+        <div class="goods-list">
+            <div class="goods-metro-row">
+                <div class="goods-metro-left">
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+   
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/amazeui.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $(".container>.am-nav-tabs>li").click(function () {
+                var e = this;
+
+            })
+        })
+    </script>
 </body>
 </html>
