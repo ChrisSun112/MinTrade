@@ -97,3 +97,14 @@ header .am-form-group>i{
     font-size:1rem;
 
 }
+.sorting-type{
+    font-size:0.8em;
+}
+.sorting-type .am-nav>li.am-active>a, .sorting-type .am-nav>li.am-active>a:focus, .sorting-type .am-nav>li.am-active>a:hover {
+    color: #0e90d2;
+    background-color: #fff;
+    cursor: default;
+}
+.sorting-type a{
+    color: #000;
+}     

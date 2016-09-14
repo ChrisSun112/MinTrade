@@ -152,11 +152,13 @@
     <Content Include="assets\js\amazeui.widgets.helper.js" />
     <Content Include="assets\js\amazeui.widgets.helper.min.js" />
     <Content Include="assets\js\app.js" />
+    <Content Include="assets\js\goodslist.js" />
     <Content Include="assets\js\handlebars.min.js" />
     <Content Include="assets\js\jquery.min.js" />
     <Content Include="assets\images\shop_logo%4032x32.jpg" />
     <Content Include="assets\images\shop_sign%40280x50.gif" />
     <Content Include="Global.asax" />
+    <Content Include="goodslist.html" />
     <Content Include="index.html" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
