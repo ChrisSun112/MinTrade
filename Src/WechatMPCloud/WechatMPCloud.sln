@@ -1,13 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WechatMPCloud", "WechatMPCloud\WechatMPCloud.csproj", "{4077D23E-7B99-4B30-A0F9-E6FCC26A52E1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WechatMPCloud.Tests", "WechatMPCloud.Tests\WechatMPCloud.Tests.csproj", "{3C109B23-2C9F-4B0F-BA59-6929948BA960}"
-EndProject
-Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "ModelingProject1", "ModelingProject1\ModelingProject1.modelproj", "{B449F7A9-8851-45EC-885C-EFA856E66E5C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +21,6 @@ Global
 		{3C109B23-2C9F-4B0F-BA59-6929948BA960}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C109B23-2C9F-4B0F-BA59-6929948BA960}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C109B23-2C9F-4B0F-BA59-6929948BA960}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B449F7A9-8851-45EC-885C-EFA856E66E5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B449F7A9-8851-45EC-885C-EFA856E66E5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B449F7A9-8851-45EC-885C-EFA856E66E5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B449F7A9-8851-45EC-885C-EFA856E66E5C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

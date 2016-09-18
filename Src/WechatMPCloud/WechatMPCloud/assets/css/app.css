@@ -44,7 +44,7 @@ header .am-form-group>i{
 }
 .container{
     border-top: 1px solid #dddddd;
-    margin-top:15px;
+    /*margin-top:15px;*/
 }
 .container .container-header{
     padding-top:7px;
@@ -107,4 +107,24 @@ header .am-form-group>i{
 }
 .sorting-type a{
     color: #000;
-}     
+}
+.container .goods-list-ul{
+    list-style-type:none;
+    padding-top:5px;
+    padding-left:2px;
+} 
+
+.goods-li-left{
+    float:left;
+    margin-left:0px;
+     width:30%;
+}
+.goods-li-left>img{
+    width:100%;
+}
+.goods-li-right{
+    width:70%;
+    float:left;
+    padding-left:5px;
+   font-size:0.8em;
+}
